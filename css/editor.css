@@ -1,0 +1,75 @@
+/* Editor Specific Styles */
+.editor-line-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-md);
+    align-items: flex-end;
+}
+
+.editor-part-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 10px;
+}
+
+.chord-slot {
+    min-height: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px dashed var(--border-color);
+    border-radius: var(--radius-sm);
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chord-slot .draggable-chord {
+    cursor: grab;
+    background-color: var(--surface-color);
+    border: 1px solid var(--primary-color);
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8em;
+}
+
+.editor-metadata {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.editor-metadata .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-metadata label {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+
+.editor-metadata input {
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+}
+
+/* Lyric Input styles (existing) */
+.lyric-input {
+    min-width: 20px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: text;
+    outline: none;
+}
+
+.lyric-input:focus {
+    border-bottom: 1px solid var(--primary-color);
+}
