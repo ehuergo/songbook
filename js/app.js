@@ -55,6 +55,40 @@ function setupEventListeners() {
         txtInput.value = ''; // Reset
     });
 
+    // Paste TXT
+    document.getElementById('paste-txt-btn').addEventListener('click', () => {
+        document.getElementById('paste-title-input').value = 'Nueva Canción';
+        document.getElementById('paste-txt-textarea').value = '';
+        UI.showScreen('paste-txt-screen');
+    });
+
+    document.getElementById('cancel-paste-btn').addEventListener('click', () => {
+        UI.showScreen('welcome-screen');
+    });
+
+    document.getElementById('confirm-paste-btn').addEventListener('click', () => {
+        const text = document.getElementById('paste-txt-textarea').value;
+        let title = document.getElementById('paste-title-input').value.trim();
+        
+        if (!text.trim()) {
+            alert("Por favor, pega el texto de la canción primero.");
+            return;
+        }
+        
+        if (!title) {
+            title = 'Nueva Canción';
+        }
+        
+        const chordProText = convertTextToChordPro(text);
+        
+        currentFileHandle = null;
+        currentSongObject = ChordPro.parse(chordProText);
+        currentSongObject.title = title;
+        
+        UI.elements.codeEditor.value = ChordPro.toText(currentSongObject);
+        Editor.renderVisualEditor(currentSongObject);
+        UI.showScreen('editor-screen');
+    });
 
 
     document.getElementById('search-input').addEventListener('input', (e) => {

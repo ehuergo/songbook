@@ -27,7 +27,8 @@
             <div class="sidebar-actions">
                 <button id="new-song-btn" class="btn-primary" style="width: 100%; margin-bottom: 10px;">+ New
                     Song</button>
-                <button id="import-txt-btn" class="btn-secondary" style="width: 100%;">Import TXT</button>
+                <button id="import-txt-btn" class="btn-secondary" style="width: 100%; margin-bottom: 10px;">Import TXT</button>
+                <button id="paste-txt-btn" class="btn-secondary" style="width: 100%;">Paste TXT</button>
                 <input type="file" id="txt-upload-input" accept=".txt,.text" style="display: none;">
             </div>
         </aside>
@@ -45,6 +46,18 @@
                     </div>
                     <h2>Selecciona una canción</h2>
                     <p>Elige una canción de la biblioteca para ver los acordes y la letra</p>
+                </div>
+            </div>
+
+            <div id="paste-txt-screen" class="screen">
+                <header class="top-bar">
+                    <button id="cancel-paste-btn" class="btn-secondary">Cancel</button>
+                    <h2>Paste Song Text</h2>
+                    <button id="confirm-paste-btn" class="btn-primary">Convert</button>
+                </header>
+                <div class="song-content" style="display: flex; flex-direction: column;">
+                    <input type="text" id="paste-title-input" placeholder="Song Title" style="width: 100%; margin-bottom: 15px; padding: 12px; font-size: 16px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); background-color: var(--surface-color); color: var(--text-primary);">
+                    <textarea id="paste-txt-textarea" placeholder="Paste your text with chords and lyrics here..." style="width: 100%; flex-grow: 1; padding: 12px; font-size: 16px; font-family: var(--font-mono); resize: none; border: 1px solid var(--border-color); border-radius: var(--radius-sm); background-color: var(--surface-color); color: var(--text-primary);"></textarea>
                 </div>
             </div>
 

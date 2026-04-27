@@ -1,0 +1,61 @@
+{title: Los Ronaldos - No Puedo Vivir Sin Tí}
+Los Ronaldos - No Puedo Vivir Sin Tí
+[Intro] [C] [E] [F] [E7]
+[C] [E] [F] [E7]
+[Primera Parte]
+Llevas [C]años enredada en mis manos
+En mi pelo
+[E7]   En mi cabeza
+E no pu[F]edo más
+No pu[E7]edo m[G]ás
+Deber[C]ía estar cansado de tus manos
+De tu pelo
+[E7]  De tus rarezas
+Pero qui[F]ero más
+Yo qui[E7]ero m[G]ás
+[Refrão]
+No puedo viv[C]ir sin ti
+No hay man[E7]era
+No puedo est[F]ar sin ti
+No hay man[E7]era [G]
+[Solo] [C] [E] [F] [E7] [G]
+[Segunda Parte]
+Me dij[C]iste que te irías
+Pero llevas en mi casa
+[E7]   Toda la vida
+Sé que n[F]o te irás
+Tú n[E7]o te ir[G]ás
+Has colg[C]ado tu bandera
+Traspasado la frontera
+[E7]   Eres la reina
+Siempre r[F]einarás
+Siempre r[E7]einar[G]ás
+[Refrão]
+No puedo viv[C]ir sin ti
+No hay man[E7]era
+No puedo est[F]ar sin ti
+No hay man[E7]era [G]
+[Solo] [C] [E] [F] [E7] [G]
+[Terceira Parte]
+Y ahora est[C]oy aquí esperando
+A que vengan a buscarme
+[E7]   Tú no te muevas
+No me enc[F]ontrarán
+No me enc[E7]ontrar[G]án
+Yo me qu[C]edo para siempre con mi reino
+Su bandera
+[E7]   Ya no hay fronteras
+Me dej[F]aré llevar a ning[E7]ún lug[G]ar
+[Refrão]
+No puedo viv[C]ir sin ti
+No hay man[E7]era
+No puedo est[F]ar sin ti
+No hay man[E7]era [G]
+[Final] [C] [E] [F]
+[E7] [G] [C]
+----------------- Acordes -----------------
+C = X 3 2 0 1 0
+E = 0 2 2 1 0 0
+E7 = 0 2 2 1 3 0
+F = 1 3 3 2 1 1
+G = 3 2 0 0 0 3
